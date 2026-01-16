@@ -1,0 +1,100 @@
+:root{
+    --color-yellow:#F8F200;
+    --color-black:black;
+}
+html::-webkit-scrollbar {
+  display: none;
+  width: 0;
+}
+
+
+/* header */
+header{
+    background-image: url(img/header/bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container__header{
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+    justify-content:space-between ;
+}
+.nav__lenta{
+    display: flex;
+     
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-top: 20px;
+}
+.nav__lenta-sm{
+    display: flex;
+    flex-direction: row;
+    column-gap: 40px;
+}
+
+.header__access{
+    max-width: 624px;
+    min-width: 320px;
+    max-height: 369px;
+    min-height: 207px;
+    padding: 70px;
+    box-sizing: border-box;
+    clip-path: polygon(8% 0, 100% 0, 100% 87%, 92% 100%, 0 100%,0 13%);
+    background-color: var(--color-yellow);
+
+    align-self:flex-end;
+}
+
+
+/* об игре  */
+
+
+
+
+@media screen and (max-width: 710px){
+    .nav__lenta{
+        justify-content: center;
+        scale: 0.8;
+    }
+    .nav__lenta-logo-img{
+        width: 200px;
+    }
+    .nav__lenta-sm-link-img{
+        width: 25px;
+        height: 25px;
+    }
+
+
+    .container__header{
+        height: 713px;
+        margin: 0px;
+        
+    }
+
+    
+    .header__access{
+        text-align: center;
+        padding: 0px !important;
+        width: 320px;
+        height: 207px;
+        align-self : flex-start ;
+        align-self: center;
+        transform: translateY(40px);
+    }
+    .header__access-head{
+        margin-top: 30px !important;
+    }
+    .head1{
+        font-size: 30px !important;
+    }
+    .btn1{
+        font-size: 20px !important;
+        width: 244px !important;
+        height: 60px !important;
+        line-height: 60px !important;
+    }
+}
