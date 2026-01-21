@@ -1,6 +1,7 @@
 body{
     margin: 0px;
     padding: 0px;
+    /* overflow: hidden; */
 }
 
 .container{
@@ -21,10 +22,14 @@ body{
 .head-black{
     color: var(--color-black);
 }
+.head-white{
+    color: white;
+}
 
 
 .btn1{
     text-decoration: none;
+    
     display: inline-block;
     width: 272px;
     height: 78px;
@@ -35,8 +40,29 @@ body{
     text-align: center;
     line-height: 78px;
 }
+.btn2{
+    cursor: pointer;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    display: inline-block;
+    width: 192px;
+    height: 59px;
+
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    line-height: 50px;
+}
 .btn-bg-black{
     background-color: var(--color-black);
+}
+.btn-bg-yellow{
+    background-color: var(--color-yellow);
+}
+.btn-text-black{
+   color: var(--color-black); 
 }
 .btn-text-yellow{
     color: var(--color-yellow);
@@ -60,6 +86,9 @@ body{
     font-family: "Roboto";
     font-weight: 700;
     color: var(--color-blue);
+}
+.p1-color-white{
+    color: white;
 }
 
 
