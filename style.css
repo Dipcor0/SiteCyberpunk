@@ -108,11 +108,11 @@ header{
     /* background-color: red; */
 }
 .play__grafiti-top{
-    background-image: url(img/play/graf-top.jpg);
+    background-image: url(img/play/bg-play-top.svg);
     height: 70px;
 }
 .play__grafiti-bottom{
-    background-image: url(img/play/graf-bottom.jpg);
+    background-image: url(img/play/bg-play-bottom.svg);
     height: 70px;
 }
 .container-play{
