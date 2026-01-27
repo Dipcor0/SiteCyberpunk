@@ -12,7 +12,7 @@ html::-webkit-scrollbar {
 
 /* header */
 header{
-    background-image: url(img/header/bg.svg);
+    background-image: url(img/header/bg.jpg);
     background-position: center center;		/* Центр */
 	background-size:cover;					/* Заполняет + обрезает */
     background-repeat: no-repeat;			/* Не повторяется */
@@ -337,25 +337,25 @@ header{
     /* display: block; */
     margin-bottom: 15px !important;
 }
-.pc_box-advan{
+.box-advan{
     display: flex;
     flex-direction: row;
     margin-bottom: 10px;
 }
-.pc__advan{
+.advan{
     line-height: 0px;
     vertical-align: middle;
     
 }
-.pc__advan-img{
-    vertical-align: middle;
-}
+
 .pc__box-advan-pages{
     margin-bottom: 40px;
 }
-.pc__advan-img{
+.advan-img{
     margin-right: 10px;
+    vertical-align: middle;
 }
+
 
 @media screen and (max-width: 1334px){
     .pictures{
