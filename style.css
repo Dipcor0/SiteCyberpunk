@@ -630,6 +630,9 @@ header{
         left: -0;
         scale: 1.1;
     }
+    .play__page{
+        width: 100%;
+    }
 
     /* pc */
     .pc__container{
