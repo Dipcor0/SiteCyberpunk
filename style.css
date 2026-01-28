@@ -417,6 +417,52 @@ header{
     flex-direction: row;
     justify-content: space-between;
 }
+
+
+/* footer */
+.footer__container{
+    min-height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;   
+}
+.footer__logo,
+.footer__rules{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 32px;
+}
+.footer__license,
+.footer__politics{
+    text-decoration: none;
+    font-family: "Roboto";
+    font-size: 18px;
+    line-height: 100%;
+    color: var(--color-black);
+}
+.footer__cyberpunk{
+    max-width: 296px;
+}
+.footer__cd-project-red{
+    max-width: 172px;
+}
+.footer__company{
+    height: 40px;
+    text-align: center;
+    
+    background-color: black;
+}
+.footer__company-text{
+    margin: 0px;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 40px;
+    color: white;
+}
+
+
 @media screen and (max-width: 1334px){
     .pictures{
         flex-direction: column;
@@ -628,5 +674,35 @@ header{
     }
     .buy__last-advan{
         margin-bottom: 40px !important;
+    }
+
+    /* footer */
+    .footer__container{
+        width: 100% !important;
+        flex-direction: column;
+    }
+    .footer__logo{
+        flex-direction: column;
+        row-gap: 25px;
+        padding-top: 40px;
+        padding-bottom: 25px;
+    }
+    .footer__cyberpunk{
+        width: 200px;
+    }
+    .footer__cd-project-red{
+        width: 116px;
+    }
+
+    .footer__rules{
+        flex-direction: column;
+        background-color: #E5E5E5;
+        row-gap: 15px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .footer__license,
+    .footer__politics{
+        font-size: 16px;
     }
 }
